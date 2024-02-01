@@ -1,0 +1,21 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    gap: 50px;
+    p{
+        line-height: 35px;
+    }
+}
+
+@media (max-width:768px){
+    .section{
+        margin: 30px;
+        gap: 25px;
+        p{
+            line-height: 25px;
+        }
+    }
+}

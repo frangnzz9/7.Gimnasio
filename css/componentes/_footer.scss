@@ -1,0 +1,27 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    p{
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    a{
+        border: 1px solid white;
+        padding: 1rem;
+        border-radius: 50%;
+        color: white;
+        &:hover{
+            background-color: #FF3131;
+        }
+    }
+}
