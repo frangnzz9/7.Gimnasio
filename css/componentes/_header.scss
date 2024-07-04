@@ -1,4 +1,4 @@
-.header{
+#header{
     background-image: url(../../img/7.png);
     background-size: cover;
     background-attachment: fixed;
@@ -14,14 +14,14 @@
         padding: 20px;
     }
 }
-.contenedor2{
+#header .contenedor2{
     background-color: rgba(0, 0, 0, 0.75);
     padding: 50px;
     width: 60%;
 }
 
 @media (max-width:800px){
-    .header{
+    #header{
         
         flex-direction: column;
         justify-content: center;
@@ -31,7 +31,7 @@
             color: white;
         }
     }
-    .contenedor2{
+    #header .contenedor2{
         background-color: rgba(0, 0, 0, 0.75);
         padding: 20px;
         width: 60%;
